@@ -9,7 +9,7 @@ import prefetch from "@astrojs/prefetch";
 export default defineConfig({
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "zh-cn"],
+    locales: ["en", "cn"],
     routing: {
       prefixDefaultLocale: false,
       strategy: "pathname"
